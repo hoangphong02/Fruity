@@ -1,0 +1,33 @@
+.tin-tuc{
+    text-align: center;
+    top:10px;
+    height: 70px;
+   color: darkgreen;
+}
+
+.card-img-top{
+    height: 100%;
+}
+
+.mt-0{
+    color:darkgreen;
+    text-align: center;
+}
+
+.me-3{
+    margin-left: 4%;
+    float:left;
+    width: 35%;
+    
+    height: 55%;
+    
+}
+
+.position-relative{
+    padding: 10px;
+}
+
+.position-relative p{
+    font-size: 18px;
+    color: black;
+}

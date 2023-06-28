@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="shortcut icon" href="logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/lienhe.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- bootstrap-->
+	<link rel="stylesheet" href="./assets/css/bootstrap.css">
+</head>
+<body>
+   
+	<div class="super-container">
+		<header class="header">
+			<div class="top_bar">
+				<div class="container">
+					<div class="row">
+						<div class="col d-flex flex-row">
+							<div style="display: flex;">
+								<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918577/phone.png" alt=""></div>0123 456 789</div>
+								<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png" alt=""></div><a href="mailto:cskh_fruity@gmail.com">cskh_fruity@gmail.com</a></div>
+							</div>
+							<div class="top_bar_content ml-auto">
+								<div class="top_bar_menu">
+									<ul class="standard_dropdown top_bar_dropdown">
+									</ul>
+								</div>
+								<div class="top_bar_user">
+									<div class="user_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg" alt=""></div>
+									<div><a href="dangky.html">Đăng ký</a></div>
+									<div><a href="dangnhap.html">Đăng nhập</a></div>
+									<div>
+										<ul class="standard_dropdown top_bar_dropdown">
+											<li>
+												<div>
+													<a class="list-down" href="#">Tài khoản</a>
+												</div>
+												<ul class="hover-list">
+													<li><a href="nguoidung.html">Thông tin tài khoản</a></li>
+													<li><a href="donhang.html">Đơn hàng</a></li>
+													<li><a href="doiMK.html">Đổi mật khẩu</a></li>
+													<li><a href="#">Đăng xuất</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+			
+	
+			<div class="header_main">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-sm-3 col-3 order-1">
+							<div class="logo_container">
+								<div class="logo"><a href="./index.html"><img class="logo_header" src="./img/logo.png" alt=""></a></div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+							<div class="header_search">
+								<div class="header_search_content">
+									<div class="header_search_form_container">
+										<form action="#" class="header_search_form clearfix">
+											<input type="search" id="searchIndex" required="required" class="header_search_input" placeholder="Tìm kiếm sản phẩm tại đây..." onkeyup="searchFunction()">
+											<div class="custom_dropdown" style="display: none;">
+												<div class="custom_dropdown_list">
+													<span class="custom_dropdown_placeholder clc">Tất cả danh mục</span>
+													<i class="fas fa-chevron-down"></i>
+													<ul class="custom_list clc">
+														<li><a class="clc" href="#">Tất cả danh mục</a></li>
+														<li><a class="clc" href="#">Trái cây Việt Nam</a></li>
+														<li><a class="clc" href="#">Trái cây Nhật Bản</a></li>
+														<li><a class="clc" href="#">Trái câu Hàn Quốc</a></li>
+														<li><a class="clc" href="#">Trái cây Mỹ</a></li>
+													</ul>
+												</div>
+											</div>
+											<button type="submit" class="header_search_button trans_300" value="Submit"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918770/search.png" alt=""></button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+							<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+								<div class="cart">
+									<div class="cart_container d-flex flex-row align-items-center justify-content-end">
+										<div class="cart_icon">
+											<i class="fa-solid fa-cart-shopping"></i>
+										</div>
+										<div class="cart_content">
+											<div class="cart_text"><a href="giohang.html">Giỏ hàng</a></div>
+											<span class="badge">0</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<nav class="main_nav">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="main_nav_content d-flex flex-row">
+								<div class="main_nav_menu">
+									<ul class="standard_dropdown main_nav_dropdown">
+										<li><a href="./index.html">Trang chủ<i class="fas fa-chevron-down"></i></a></li>
+										<li><a href="gioithieu.html">Giới thiệu<i class="fas fa-chevron-down"></i></a></li>
+										<li class="hassubs">
+											<a href="sanpham.html">Sản phẩm</a>
+										</li>
+										<li class="hassubs">
+											<a href="tintuc.html">Tin tức</a>
+											
+										</li>
+										<li class="hassubs">
+											<a href="lienhe.html">Liên hệ</a>
+											
+										</li>
+										<li class="hassubs">
+											<a href="https://goo.gl/maps/Sz61FvKpSfmzUFVi8" target="_blank">Cửa hàng</a>
+										</li>
+									</ul>
+								</div>
+								<div class="menu_trigger_container ml-auto">
+									<div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
+										<div class="menu_burger">
+											<div class="menu_trigger_text">Menu</div>
+											<div class="cat_burger menu_burger_inner"><span></span><span></span><span></span></div>
+										</div>
+									</div>
+								</div>
+	
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="page_menu">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="page_menu_content">
+								
+								<div class="page_menu_search">
+									<form action="#">
+										<input id="searchIndex" type="search" required="required" class="page_menu_search_input" placeholder="Tìm kiếm sản phẩm tại đây..." onkeyup="searchFunction()">
+									</form>
+								</div>
+								<ul class="page_menu_nav">
+									<li class="page_menu_item has-children">
+										<a href="./index.html"><i class="icon-tag fa-solid fa-house-user"></i>Trang chủ</a>
+									</li>
+									<li class="page_menu_item has-children">
+										<a href="gioithieu.html"><i class="icon-tag fa-solid fa-house-user"></i>Giới thiệu</i></a>
+									</li>
+									 <li class="page_menu_item has-children">
+										<a href="sanpham.html"><i class="icon-tag fa-solid fa-house-user"></i>Sản phẩm</a>
+										
+									</li> 
+									<li class="page_menu_item has-children">
+										<a href="tintuc.html"><i class="icon-tag fa-solid fa-newspaper"></i>Tin tức</i></a>
+									</li>
+									<li class="page_menu_item has-children"><a href="lienhe.html"><i class="icon-tag fa-solid fa-phone-volume"></i>Liên hệ</a></li>
+									<li class="page_menu_item has-children"> <a href="https://goo.gl/maps/Sz61FvKpSfmzUFVi8" target="_blank"><i class="icon-tag fa-solid fa-store"></i>Cửa hàng</a></li>
+								</ul>
+								
+								<div class="menu_contact">
+									<div class="menu_contact_item"><div class="menu_contact_icon"></div>0123456789</div>
+									<div class="menu_contact_item"><div class="menu_contact_icon"><a href="mailto:cskh_fruity@gmail.com">cskh_fruity@gmail.com</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- <div style="height: 400px">
+		</div> -->
+	</div>
+<main class="container">
+
+	<!-- <div class="lien-he">
+		<h3>LIÊN HỆ</h3>
+	</div> -->
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8415184086434!2d105.76842661471193!3d10.029933692830655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0895a51d60719%3A0x9d76b0035f6d53d0!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBD4bqnbiBUaMah!5e0!3m2!1svi!2s!4v1668923554367!5m2!1svi!2s" 
+		width="1300" 
+		height="550" 
+		style="border:0;" 
+		allowfullscreen="" 
+		loading="lazy" 
+		referrerpolicy="no-referrer-when-downgrade">
+	</iframe>
+
+
+	<div class="container px-4 text-center">
+		<div class="row gx-5">
+		  <div class="col">
+		   <div class="p-3 border bg-light">
+				<h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>
+
+				<ul>
+					<li>
+						<span style="font-size: 100%;">
+							<strong>Địa chỉ:</strong>
+							Đại học Cần Thơ, khu 2, đường 3 tháng 2, phường Xuân Khánh, quận Ninh Kiều, thành phố Cần Thơ.
+						</span>
+					</li>
+					<li>
+						<span style="font-size: 100%;">
+							<strong>Điện thoại hỗ trợ:</strong>
+							028.7108.9666
+						</span>
+					</li>
+					<li>
+						<span style="font-size: 100%;">
+							<strong>Email:</strong>
+							cskh_fruity@gmail.com
+						</span>
+					</li>
+				</ul>
+		   </div>
+		  </div>
+		  <div class="col">
+			<div class="p-3 border bg-light">
+
+				<form action="#" method="post" enctype="application/x-www-form-urlencoded" onsubmit="return contactValidate()">
+					<h4>GÓP Ý</h4>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Họ và tên</label>
+					<input type="text" class="form-control" id="name" placeholder="">
+				  </div>
+
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Địa chỉ</label>
+					<input type="text" class="form-control" id="diachi" placeholder="">
+				</div>
+
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Số điện thoại</label>
+					<input type="text" class="form-control" id="sodienthoai" placeholder="">
+				  </div>
+				  
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Email</label>
+					<input type="text" class="form-control" id="email" placeholder="">
+				</div>
+
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Nội dung liên hệ</label>
+					<textarea class="form-control" id="content" rows="3"></textarea>
+				  </div>
+
+				  <div class="d-grid gap-2 d-md-block">
+					<button class="btn btn-primary" type="submit">Gửi</button>
+				  </div>
+
+				</form>
+				
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+
+	  
+</main>
+<footer>
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Sản phẩm</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="sanpham.html" class="nav-link p-0 text-muted">Trái cây Việt Nam</a></li>
+                  <li class="nav-item mb-2"><a href="sanpham.html" class="nav-link p-0 text-muted">Trái cây Nhật Bản</a></li>
+                  <li class="nav-item mb-2"><a href="sanpham.html" class="nav-link p-0 text-muted">Trái cây Hàn Quốc</a></li>
+                  <li class="nav-item mb-2"><a href="sanpham.html" class="nav-link p-0 text-muted">Trái cây Mỹ</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Giới thiệu</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="gioithieu.html" class="nav-link p-0 text-muted">Fruity</a></li>
+                  <li class="nav-item mb-2"><a href="https://goo.gl/maps/Sz61FvKpSfmzUFVi8" target="_blank" class="nav-link p-0 text-muted">Cửa hàng</a></li>
+                  <li class="nav-item mb-2"><a href="tintuc.html" class="nav-link p-0 text-muted">Thông tin hữu ích</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Kết nối với Fruity</h5>
+                <ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="https://www.facebook.com/" class="nav-link p-0 text-muted"><i class="icon-tag fa-brands fa-facebook"></i>Facebook</a></li>
+					<li class="nav-item mb-2"><a href="https://twitter.com/?lang=vi" class="nav-link p-0 text-muted"><i class="icon-tag fa-brands fa-twitter"></i>Twitter</a></li>
+					<li class="nav-item mb-2"><a href="https://www.instagram.com/" class="nav-link p-0 text-muted"><i class="icon-tag fa-brands fa-instagram"></i>Instagram</a></li>
+					<li class="nav-item mb-2"><a href="https://id.zalo.me/account?continue=https%3A%2F%2Fchat.zalo.me%2F%3Fnull" class="nav-link p-0 text-muted"><i class="icon-tag fa-solid fa-message"></i>Zalo</a></li>
+					<li class="nav-item mb-2"><a href="tel:0123456789" class="nav-link p-0 text-muted"><i class="icon-tag fa-solid fa-phone"></i>Điện thoại</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3 grid__column-2-4">
+				<h5 class="footer__header">Thanh toán</h5>
+				<a href="" class="footer__purchase">
+					<img src="./Data/logo VNPAY.png" alt="" class="footer__purchase-partner">
+				</a>
+				<a href="" class="footer__purchase">
+					<img src="./Data/MoMo_Logo.png" alt="" class="footer__purchase-partner">
+				</a>
+				<a href="" class="footer__purchase">
+					<img src="./Data/ZaloPay_logo.png" alt="" class="footer__purchase-partner">
+				</a>
+				<a href="" class="footer__purchase">
+					<img src="./Data/channels4_profile.jpg" alt="" class="footer__purchase-partner">
+				</a>
+				<h5 style="margin-top: 20px ;">Đơn vị vận chuyển</h5>
+				<a href="" class="footer__purchase">
+					<img src="./Data/Logo-GHTK-Slogan.png" alt="" class="footer__purchase-partner">
+				</a>
+				<a href="" class="footer__purchase">
+					<img src="./Data/logo_GNH.png" alt="" class="footer__purchase-partner">
+				</a>
+				<a href="" class="footer__purchase">
+					<img src="./Data/Logo-Viettel-Post.jpg" alt="" class="footer__purchase-partner">
+				</a>
+				<a href="" class="footer__purchase">
+					<img src="./Data/article_1546001113_751.png" alt="" class="footer__purchase-partner">
+				</a>
+			</div>
+
+			<div class="col-6 col-md-4 mb-3">
+                <h5>Giấy phép kinh doanh</h5>
+					<a href="">
+						<img style="margin-top: 20px;" src="https://cdn2.cellphones.com.vn/80x/media/logo/logoSaleNoti.png" alt="" class="footer__authority-img">
+					</a>
+					<a href="">
+						<img style="margin-top: 20px;" src="https://images.dmca.com/Badges/dmca_copyright_protected150c.png?ID=158f5667-cce3-4a18-b2d1-826225e6b022" alt="" class="footer__authority-img">
+					</a>
+					<div class="grid" style="margin-top: 20px;">
+						<p>Địa chỉ: Đại học Cần Thơ, khu 2, đường 3 tháng 2, phường Xuân Khánh, quận Ninh Kiều, thành phố Cần Thơ. Điện thoại hỗ trợ: 028.7108.9666</p>
+						<p>Điện thoại hỗ trợ: 028.7108.9666</p>
+						<p>Email: cskh_fruity@gmail.com</p>
+						<p>GPĐKKD: 0316172372 do sở KH & ĐT TP. CT cấp ngày 02/03/2020</p>
+					</div>
+              </div>
+			  
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>© 2022 Bản quyền thuộc Fruity. Mọi quyền được bảo lưu.</p>
+            </div>
+          </footer>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="./lienhe.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

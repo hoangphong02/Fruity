@@ -1,0 +1,287 @@
+.introduce {
+    margin: 2% 4% 2% 4%; 
+    text-align: center;
+}
+.introduce h2{
+    text-align: center;
+}
+.introduce_head{
+    color:darkgreen;
+    text-transform: uppercase;
+    text-align: center;
+}
+.display1 {
+    display: flex;
+    margin: 0 5px;
+}
+.display2{
+    display: flex;
+}
+.display1 img{
+   margin-left: 4%;
+    float:left;
+    width: 35%;
+    padding: 20px;
+}
+.columright h3{
+    font-size: 30px;
+    color: darkgreen;
+}
+ .columright {
+    float: right;
+    width: 60%;
+    padding: 3% 5% 0 2%;
+    text-align: justify;
+}  
+.display2 img{
+    
+    margin: 2% 5% 0 2%;
+} 
+ .columleft{
+    float: left;
+    width: 60%;
+    margin:3% 1% 0 4%;
+    text-align: justify;
+}
+.columleft h3{
+    font-size: 30px;
+    color: darkgreen;
+}
+#hinh4 {
+    padding-left: 5%;
+    padding-right: 2%;
+}  
+/* thu.display3 img{
+    margin-left: 4%;
+    float:left;
+    width: 35%;
+    padding: 20px;
+} */
+ @media only screen and (max-width: 575px){
+    #hinh4 {
+        padding-left: 5%;
+        padding-right: 2%;
+        width: 100%;
+    }
+
+    .columleft {
+        float: left;
+        width: 93%;
+        margin: 3% 1% 0 4%;
+        text-align: justify;
+    }
+
+    .display1 img {
+		margin-left: 4%;
+		float: left;
+		width: 93%;
+		padding: 20px;
+	}
+
+	.display1 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+	.columright {
+		float: right;
+		width: 100%;
+		padding: 3% 5% 0 2%;
+		text-align: justify;
+	}
+
+    .display2 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+    .display2 img {
+        margin: 2% 5% 0 2%;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    #hinh4 {
+        padding-left: 5%;
+        padding-right: 2%;
+        width: 100%;
+    }
+
+    .columleft {
+        float: left;
+        width: 93%;
+        margin: 3% 1% 0 4%;
+        text-align: justify;
+    }
+
+    .display1 img {
+		margin-left: 4%;
+		float: left;
+		width: 93%;
+		padding: 20px;
+	}
+
+	.display1 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+	.columright {
+		float: right;
+		width: 100%;
+		padding: 3% 5% 0 2%;
+		text-align: justify;
+	}
+
+    .display2 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+    .display2 img {
+        margin: 2% 5% 0 2%;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #hinh4 {
+        padding-left: 5%;
+        padding-right: 2%;
+        width: 100%;
+    }
+
+    .columleft {
+        float: left;
+        width: 93%;
+        margin: 3% 1% 0 4%;
+        text-align: justify;
+    }
+
+    .display1 img {
+		margin-left: 4%;
+		float: left;
+		width: 93%;
+		padding: 20px;
+	}
+
+	.display1 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+	.columright {
+		float: right;
+		width: 100%;
+		padding: 3% 5% 0 2%;
+		text-align: justify;
+	}
+
+    .display2 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+    .display2 img {
+        margin: 2% 5% 0 2%;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    #hinh4 {
+        padding-left: 5%;
+        padding-right: 2%;
+        width: 100%;
+    }
+
+    .columleft {
+        float: left;
+        width: 93%;
+        margin: 3% 1% 0 4%;
+        text-align: justify;
+    }
+
+    .display1 img {
+		margin-left: 4%;
+		float: left;
+		width: 93%;
+		padding: 20px;
+	}
+
+	.display1 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+	.columright {
+		float: right;
+		width: 100%;
+		padding: 3% 5% 0 2%;
+		text-align: justify;
+	}
+
+    .display2 {
+		display: grid;
+		margin: 0 5px;
+	}
+
+    .display2 img {
+        margin: 2% 5% 0 2%;
+        width: 95%;
+    }
+}
+
+@media (min-width: 1200px){
+    #hinh4 {
+        padding-left: 5%;
+        padding-right: 2%;
+        width: 38%;
+    }
+
+    /* div {
+         display: block; 
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    } */
+
+    .columleft {
+        float: left;
+        width: 93%;
+        margin: 3% 1% 0 4%;
+        text-align: justify;
+    }
+
+    .display1 img {
+		margin-left: 4%;
+		float: left;
+		width: 60%;
+		padding: 20px;
+	}
+
+	.display1 {
+		display: flex;
+		margin: 0 5px;
+	}
+
+	.columright {
+		float: right;
+		width: 60%;
+		padding: 3% 5% 0 2%;
+		text-align: justify;
+	}
+
+    .display2 {
+		display: flex;
+		margin: 0 5px;
+	}
+
+    .display2 img {
+        margin: 2% 5% 0 2%;
+        width: 40%;
+    }
+} 

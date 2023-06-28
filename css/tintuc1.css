@@ -1,0 +1,24 @@
+.tin-tuc1 h3{
+    text-align: center;
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+
+.figure{
+    text-align: center;
+}
+
+.figure img {
+    max-width: 50%;
+
+    
+}
+
+.canhchinh{
+    margin: 3px 15% 0 15%;
+}
+
+.rounded{
+    width: 800px;
+}
